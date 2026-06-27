@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "cozy-kit-plugin-fancy-greetings"
+version = "1.0.0"
+description = "Adds emoji-rich greeting methods to the Greeting class."
+authors = [{ name = "Youssef Ahmed", email = "youssef.ahmed.29062017@gmail.com" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["cozy-kit", "plugin", "greeting", "emoji"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/youssefahmed2017/cozy-kit-plugin-fancy-greetings"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["cozy_kit_plugin_fancy_greetings*"]

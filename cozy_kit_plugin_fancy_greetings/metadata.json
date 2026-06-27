@@ -1,0 +1,12 @@
+{
+  "name": "fancy_greetings",
+  "version": "1.0.0",
+  "description": "Adds emoji-rich greeting methods to the Greeting class.",
+  "author": "Youssef Ahmed",
+  "license": "MIT",
+  "target": "Greeting",
+  "methods": ["wave", "celebrate", "cheer"],
+  "tags": ["greeting", "emoji", "fun"],
+  "dependencies": [],
+  "min_cozy_kit_version": "1.0.0"
+}
