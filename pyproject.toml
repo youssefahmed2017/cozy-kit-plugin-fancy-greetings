@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cozy-kit-plugin-fancy-greetings"
-version = "1.0.0"
+version = "1.1.0"
 description = "Adds emoji-rich greeting methods to the Greeting class."
 authors = [{ name = "Youssef Ahmed", email = "youssef.ahmed.29062017@gmail.com" }]
 license = "MIT"
